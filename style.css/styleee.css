@@ -77,7 +77,7 @@ body {
     margin-top: 5px;
 }
 
-
+/* main section part 1. welcome part */
 
 .main_sec_img1 {
     background: linear-gradient(90deg, #070211 0%, #07021100 100%), url('../image/Vectorrr.png');
@@ -379,4 +379,101 @@ body {
     font-family: Inter;
     font-weight: 600;
     cursor: pointer;
+}
+
+.footer {
+    background: #070211;
+    height: 610px;
+    color: white;
+}
+
+.footer-up {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+address {
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    
+    max-width: 380px;
+}
+
+.footer-up_2 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    
+    margin-right: 200px;
+
+}
+
+.footer-up_2_div {
+    display: flex;
+}
+
+.footer-up_2_div img {
+    max-width: 24px;
+    max-height: 24px;
+    margin-top: 10px;
+}
+
+.footer-up_2_div h6 {
+    margin: 0px;
+    padding-left: 10px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+.footer-middle {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 48px;
+}
+
+a {
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer-down{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-down h6{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+
+.footer-down button{
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.footer-down button:hover{
+    text-decoration: underline;
 }
