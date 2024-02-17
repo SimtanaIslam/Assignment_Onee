@@ -23,7 +23,7 @@ body {
 
 
 .banner_img {
-    background: linear-gradient(180deg, #070211 0%, #07021100 100%), url('../image/Banner\ Image.png');
+    background: linear-gradient(180deg, #070211 0%, #07021100 100%), url('../image/Banner Image.png');
     border-radius: 16px;
     height: 600px;
     width: 1320px;
@@ -48,6 +48,7 @@ body {
     left: 344px;
     right: 300px;
 }
+
 .banner-2 {
     text-align: center;
     margin-top: 100px;
@@ -75,6 +76,9 @@ body {
     font-weight: 700;
     margin-top: 5px;
 }
+
+
+
 .main_sec_img1 {
     background: linear-gradient(90deg, #070211 0%, #07021100 100%), url('../image/Vectorrr.png');
     width: 1320px;
@@ -308,7 +312,7 @@ body {
     margin-top: -234px;
     width: 1320px;
     height: 230px;
-    background-image: url('../image/Rectangle\ 2.png');
+    background-image: url('../image/Rectangle 2.png');
     border-radius: 16px 0 16px 16px;
 }
 
